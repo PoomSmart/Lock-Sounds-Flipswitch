@@ -1,0 +1,9 @@
+Package: org.thebigboss.locksoundfs
+Name: Lock Sounds Flipswitch
+Depends: mobilesubstrate, com.a3tweaks.flipswitch
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Toggle for Lock Sounds option.
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Addons (Flipswitch)
