@@ -36,8 +36,7 @@ CFStringRef const kDomain = isiOS10Up ? CFSTR("com.apple.preferences.sounds") : 
 
 %hook SBSoundPreferences
 
-+ (void)userDefaultsDidChanged: (id)arg1
-{
++ (void)userDefaultsDidChanged: (id)arg1 {
     %orig;
     [[FSSwitchPanel sharedPanel] stateDidChangeForSwitchIdentifier:@"com.PS.LockSounds"];
 }
